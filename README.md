@@ -135,9 +135,3 @@ A CUDA GPU is strongly recommended. The experiments were run on a GPU with 17 GB
 ## Tech Stack
 
 Python, PyTorch, torchvision, scikit-learn, NumPy, pandas, h5py, Matplotlib, seaborn
-
----
-
-**Author:** Manas Acharya, MSc Artificial Intelligence (Distinction), University of Essex
-Supervisor: Dr Jon Chamberlain
-[LinkedIn](https://linkedin.com/in/manas-acharya-8m2a) · [GitHub](https://github.com/Manas-Acharya)
