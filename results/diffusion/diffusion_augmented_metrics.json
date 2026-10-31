@@ -1,0 +1,86 @@
+{
+  "overall_accuracy": 0.786875,
+  "avg_focus_f1": 0.625309366887381,
+  "cigar_f1": 0.6753246753246753,
+  "class_report": {
+    "Disturbed Galaxies": {
+      "precision": 0.3333333333333333,
+      "recall": 0.48484848484848486,
+      "f1-score": 0.3950617283950617,
+      "support": 99.0
+    },
+    "Merging Galaxies": {
+      "precision": 0.8974358974358975,
+      "recall": 0.6441717791411042,
+      "f1-score": 0.75,
+      "support": 163.0
+    },
+    "Round Smooth Galaxies": {
+      "precision": 0.8888888888888888,
+      "recall": 0.9105691056910569,
+      "f1-score": 0.8995983935742972,
+      "support": 246.0
+    },
+    "In-between Round Smooth Galaxies": {
+      "precision": 0.9130434782608695,
+      "recall": 0.9180327868852459,
+      "f1-score": 0.9155313351498637,
+      "support": 183.0
+    },
+    "Cigar Shaped Smooth Galaxies": {
+      "precision": 0.5652173913043478,
+      "recall": 0.8387096774193549,
+      "f1-score": 0.6753246753246753,
+      "support": 31.0
+    },
+    "Barred Spiral Galaxies": {
+      "precision": 0.8385093167701864,
+      "recall": 0.7458563535911602,
+      "f1-score": 0.7894736842105263,
+      "support": 181.0
+    },
+    "Unbarred Tight Spiral Galaxies": {
+      "precision": 0.785234899328859,
+      "recall": 0.7267080745341615,
+      "f1-score": 0.7548387096774194,
+      "support": 161.0
+    },
+    "Unbarred Loose Spiral Galaxies": {
+      "precision": 0.6808510638297872,
+      "recall": 0.6808510638297872,
+      "f1-score": 0.6808510638297872,
+      "support": 235.0
+    },
+    "Edge-on Galaxies without Bulge": {
+      "precision": 0.841726618705036,
+      "recall": 0.9212598425196851,
+      "f1-score": 0.8796992481203008,
+      "support": 127.0
+    },
+    "Edge-on Galaxies with Bulge": {
+      "precision": 0.9190751445086706,
+      "recall": 0.9137931034482759,
+      "f1-score": 0.9164265129682997,
+      "support": 174.0
+    },
+    "accuracy": 0.786875,
+    "macro avg": {
+      "precision": 0.7663316032365877,
+      "recall": 0.7784800271908316,
+      "f1-score": 0.7656805351250231,
+      "support": 1600.0
+    },
+    "weighted avg": {
+      "precision": 0.8047304840301812,
+      "recall": 0.786875,
+      "f1-score": 0.7917146262911315,
+      "support": 1600.0
+    }
+  },
+  "minority_f1_scores": [
+    0.3950617283950617,
+    0.75,
+    0.6753246753246753,
+    0.6808510638297872
+  ]
+}
